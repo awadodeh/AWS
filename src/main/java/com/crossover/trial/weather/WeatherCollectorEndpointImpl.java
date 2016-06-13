@@ -1,26 +1,20 @@
 package com.crossover.trial.weather;
 
-import java.util.HashSet;
-import java.util.NoSuchElementException;
-import java.util.Set;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
-import javax.ws.rs.DELETE;
-import javax.ws.rs.GET;
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
-
 import com.crossover.trial.weather.exception.WeatherException;
 import com.crossover.trial.weather.model.Airport;
 import com.crossover.trial.weather.model.DataPoint;
 import com.crossover.trial.weather.service.AirportWeatherService;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
+
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import java.util.HashSet;
+import java.util.NoSuchElementException;
+import java.util.Set;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * A REST implementation of the WeatherCollector API. Accessible only to airport

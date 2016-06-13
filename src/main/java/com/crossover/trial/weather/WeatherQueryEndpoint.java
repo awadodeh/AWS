@@ -1,9 +1,8 @@
 package com.crossover.trial.weather;
 
+import com.crossover.trial.weather.model.AtmosphericInformation;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Response;
-
-import com.crossover.trial.weather.model.AtmosphericInformation;
 
 /**
  * The query only API for the Weather Server App. This API is made available to

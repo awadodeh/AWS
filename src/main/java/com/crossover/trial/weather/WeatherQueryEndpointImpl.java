@@ -1,10 +1,11 @@
 package com.crossover.trial.weather;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.logging.Logger;
+import com.crossover.trial.weather.model.Airport;
+import com.crossover.trial.weather.model.AtmosphericInformation;
+import com.crossover.trial.weather.model.DataPointType;
+import com.crossover.trial.weather.service.AirportWeatherService;
+import com.crossover.trial.weather.utils.CoordinateHelper;
+import com.google.gson.Gson;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -12,13 +13,11 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-
-import com.crossover.trial.weather.model.Airport;
-import com.crossover.trial.weather.model.AtmosphericInformation;
-import com.crossover.trial.weather.model.DataPointType;
-import com.crossover.trial.weather.service.AirportWeatherService;
-import com.crossover.trial.weather.utils.CoordinateHelper;
-import com.google.gson.Gson;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.logging.Logger;
 
 /**
  * The Weather App REST endpoint allows clients to query, update and check
