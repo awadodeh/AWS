@@ -3,7 +3,7 @@ package com.crossover.trial.weather.model;
 /**
  * Daylight savings time.
  *
- * @author hp279
+ * @author Awad
  */
 public enum DaylightSavingsTime {
     E("Europe"), A("US/Canada"), S("South America"), O("Australia"), Z("New Zealand"), N("None"), U("Unknown");

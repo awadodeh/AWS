@@ -13,7 +13,7 @@ import com.crossover.trial.weather.model.DataPointType;
 
 /**
  * 
- * @author hp279
+ * @author Awad
  *
  */
 public enum  AirportWeatherService {
