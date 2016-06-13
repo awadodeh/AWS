@@ -1,9 +1,9 @@
 package com.crossover.trial.weather.model;
 
+import com.crossover.trial.weather.exception.WeatherException;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-
-import com.crossover.trial.weather.exception.WeatherException;
 
 /**
  * encapsulates sensor information for a particular location

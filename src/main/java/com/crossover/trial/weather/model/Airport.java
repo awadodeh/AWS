@@ -1,11 +1,11 @@
 package com.crossover.trial.weather.model;
 
-import java.util.Objects;
-import java.util.TimeZone;
-
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
+
+import java.util.Objects;
+import java.util.TimeZone;
 
 /**
  * Basic airport information.

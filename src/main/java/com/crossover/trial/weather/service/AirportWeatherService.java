@@ -1,15 +1,15 @@
 package com.crossover.trial.weather.service;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.NoSuchElementException;
-import java.util.Set;
-
 import com.crossover.trial.weather.exception.WeatherException;
 import com.crossover.trial.weather.model.Airport;
 import com.crossover.trial.weather.model.AtmosphericInformation;
 import com.crossover.trial.weather.model.DataPoint;
 import com.crossover.trial.weather.model.DataPointType;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.NoSuchElementException;
+import java.util.Set;
 
 /**
  * 
